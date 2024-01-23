@@ -1,0 +1,7 @@
+- name: 42.mk
+  description: Base 42's main site
+  tag: "base-42"
+  image: "/base42.jpeg"
+  api:
+    method: GET
+    url: https://www.42.mk/
