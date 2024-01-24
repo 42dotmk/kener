@@ -9,6 +9,6 @@ services:
     ports:
       - "305:3000"
     volumes:
-      - /volumes/kener:/app/static/kener
+      - volumes/kener:/app/static/kener
     env_file:
       - .env

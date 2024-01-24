@@ -5,3 +5,10 @@
   api:
     method: GET
     url: https://www.42.mk/
+- name: Drug Registry API
+  description: The API for the Macedonian drug registry
+  tag: "drug-registry"
+  image: "/base42.jpeg"
+  api:
+    method: GET
+    url: https://www.42.mk/
