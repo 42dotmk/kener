@@ -19,3 +19,11 @@
   api:
     method: GET
     url: https://blog.42.mk/
+- name: Drug Registry API
+  description: A public API for the Macedonian drug registry
+  tag: "drug-registry-api"
+  image: "/drugs.png"
+  cron: "0 0/5 * 1/1 * ? *"
+  api:
+    method: GET
+    url: http://registar.dimeski-vps.xyz/api/drugs/search?query=paracetamol
