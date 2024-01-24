@@ -12,3 +12,10 @@
   api:
     method: GET
     url: https://wiki.42.mk/
+- name: Blog
+  description: Base 42's blog site
+  tag: "base-42-blog"
+  image: "/blog.png"
+  api:
+    method: GET
+    url: https://blog.42.mk/
