@@ -26,8 +26,8 @@ jobs:
 
     - name: Build & Push Docker Image
       run: |
-        SHORT_COMMIT_HASH=$(echo ${{ github.sha }} | cut -c1-5)
+        SHORT_COMMIT_HASH=$(echo ${{ github.sha }} | cut -c1-7)
         docker build -t ghcr.io/42dotmk/kener:latest .
-        docker tag ghcr.io/42dotmk/kener:latest ghcr.io/42dotmk/kener:SHORT_COMMIT_HASH
+        docker tag ghcr.io/42dotmk/kener:latest ghcr.io/42dotmk/kener:$SHORT_COMMIT_HASH
         docker push ghcr.io/42dotmk/kener:latest
-        docker push ghcr.io/42dotmk/kener:SHORT_COMMIT_HASH
+        docker push ghcr.io/42dotmk/kener:$SHORT_COMMIT_HASH
