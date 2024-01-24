@@ -24,6 +24,8 @@ COPY --from=BUILD /app/build ./build
 RUN mkdir -p /app/static/kener
 ENV PUBLIC_KENER_FOLDER=/app/static/kener
 
+ENV NODE_ENV=production
+
 RUN npm install express
 
 EXPOSE 3000
