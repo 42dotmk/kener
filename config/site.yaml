@@ -1,0 +1,25 @@
+title: "Status Monitor"
+home: "/"
+logo: "/logo.png"
+github:
+  owner: "42dotmk"
+  repo: "kener"
+metaTags:
+  description: "Kener: Open-source modern looking Node.js status page tool, designed to make service monitoring and incident handling a breeze. It offers a sleek and user-friendly interface that simplifies tracking service outages and improves how we communicate during incidents. And the best part? Kener integrates seamlessly with GitHub, making incident management a team effort—making it easier for us to track and fix issues together in a collaborative and friendly environment."
+  keywords: "Node.js status page, Incident management tool, Service monitoring, Service outage tracking, Real-time status updates, GitHub integration for incidents, Open-source status page, Node.js monitoring application, Service reliability, User-friendly incident management, Collaborative incident resolution, Seamless outage communication, Service disruption tracker, Real-time incident alerts, Node.js status reporting"
+  og:description: "Kener: Open-source Node.js status page tool, designed to make service monitoring and incident handling a breeze. It offers a sleek and user-friendly interface that simplifies tracking service outages and improves how we communicate during incidents. And the best part? Kener integrates seamlessly with GitHub, making incident management a team effort—making it easier for us to track and fix issues together in a collaborative and friendly environment."
+  og:image: "https://kener.ing/ss.png"
+  og:title: "Kener - Open-Source and Modern looking Node.js Status Page for Effortless Incident Management"
+  og:type: "website"
+  og:site_name: "Kener"
+nav:
+  - name: "42.mk"
+    url: "https://www.42.mk/"
+  - name: "Github"
+    url: "https://github.com/42dotmk/kener"
+hero:
+  title: Base 42 Status Monitor
+  subtitle: Check the status of the services in the hackerspace.
+categories:
+  - name: API
+    description: Base 42's APIs

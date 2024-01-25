@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  kener-app:
+    restart: always
+    image: ghcr.io/42dotmk/kener:latest
+    ports:
+      - "305:3000"
+    volumes:
+      - kener:/app/static/kener
+    env_file:
+      - .env
+
+volumes:
+  kener:

@@ -1,0 +1,29 @@
+- name: 42.mk
+  description: Base 42's main site
+  tag: "base-42"
+  image: "/base42.jpeg"
+  api:
+    method: GET
+    url: https://www.42.mk/
+- name: Wiki
+  description: Base 42's wiki site
+  tag: "base-42-wiki"
+  image: "/wiki.png"
+  api:
+    method: GET
+    url: https://wiki.42.mk/
+- name: Blog
+  description: Base 42's blog site
+  tag: "base-42-blog"
+  image: "/blog.png"
+  api:
+    method: GET
+    url: https://blog.42.mk/
+- name: Drug Registry API
+  description: A public API for the Macedonian drug registry
+  tag: "drug-registry-api"
+  image: "/drugs.png"
+  category: API
+  api:
+    method: GET
+    url: http://registar.dimeski-vps.xyz/api/drugs/search?query=paracetamol
