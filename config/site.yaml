@@ -13,8 +13,13 @@ metaTags:
   og:type: "website"
   og:site_name: "Kener"
 nav:
+  - name: "42.mk"
+    url: "https://www.42.mk/"
   - name: "Github"
     url: "https://github.com/42dotmk/kener"
 hero:
   title: Base 42 Status Monitor
   subtitle: Check the status of the services in the hackerspace.
+categories:
+  - name: API
+    description: Base 42's APIs

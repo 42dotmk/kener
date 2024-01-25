@@ -23,7 +23,7 @@
   description: A public API for the Macedonian drug registry
   tag: "drug-registry-api"
   image: "/drugs.png"
-  cron: "*/5 * * * *"
+  category: API
   api:
     method: GET
     url: http://registar.dimeski-vps.xyz/api/drugs/search?query=paracetamol
