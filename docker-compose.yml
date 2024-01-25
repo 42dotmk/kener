@@ -3,9 +3,7 @@ version: "3.8"
 services:
   kener-app:
     restart: always
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ghcr.io/42dotmk/kener:latest
     ports:
       - "305:3000"
     volumes:
