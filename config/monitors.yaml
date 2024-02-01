@@ -19,6 +19,14 @@
   api:
     method: GET
     url: https://blog.42.mk/
+- name: Llama LLM API
+  description: Ollama API with Llama2 7b and 13b models
+  tag: "base-42-ollama"
+  image: "/ollama.png"
+  category: API
+  api:
+    method: GET
+    url: https://llama.42.mk/
 - name: Drug Registry API
   description: A public API for the Macedonian drug registry
   tag: "drug-registry-api"
